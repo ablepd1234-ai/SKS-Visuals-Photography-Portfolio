@@ -12,14 +12,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 
   <style>
-    :root {
-      --black: #10100f;
-      --dark: #171715;
-      --gold: #c6a56b;
-      --cream: #eee8dc;
-      --muted: #aaa49a;
-      --red: #713b36;
-    }
+    .site-logo {
+  width: 190px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -410,9 +409,11 @@
   <header>
     <div class="container">
       <nav>
-        <a class="brand" href="#home">ABLE<span>_</span>STUDIO<span>_</span>
-          <small>PHOTOGRAPHY</small>
-        </a>
+        <a href="#home">
+  <img src="able-studio-logo.png"
+       alt="Able_Studio_ Photography"
+       class="site-logo">
+</a>
 
         <div class="nav-links">
           <a href="#home">Home</a>
@@ -615,9 +616,11 @@
   </main>
 
   <footer>
-    <a class="brand" href="#home">ABLE<span>_</span>STUDIO<span>_</span>
-      <small>PHOTOGRAPHY</small>
-    </a>
+  <a href="#home">
+  <img src="able-studio-logo.png"
+       alt="Able_Studio_ Photography"
+       class="site-logo">
+</a>
     <p>EVERY MOMENT HAS A STORY.</p>
     <p>© <span id="year"></span> Able_Studio_. All rights reserved.</p>
   </footer>
